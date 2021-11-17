@@ -1,0 +1,48 @@
+.card {
+	background-color: lightgrey;
+	width: 15%;
+	height: 200px;
+	margin: 10px;
+	display: inline-block;
+	border-radius: 25px;
+}
+form {
+	text-align: center;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+button {
+	border: 2px solid white;
+	color: white;
+	background-color: #3f434a;
+	font-family: 'Rubik Mono One', sans-serif;
+}
+body {
+	background-color: #3f434a;
+	font-family: 'Rubik Mono One', sans-serif;
+}
+span {
+	display: block;
+}
+
+.pink {
+	background-color: pink;
+}
+.green {
+	background-color: #4b7351;
+}
+.blue {
+	background-color: #376abd;
+}
+.orange {
+	background-color: #dbac6e;
+}
+.yellow {
+	background-color: #f2ffb6;
+}
+
+.front-color {
+	background-color: lightgrey;
+}
