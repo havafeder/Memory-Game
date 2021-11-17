@@ -30,7 +30,7 @@ function cardClick(e) {
       comboCount.innerText = `${'matches'}: ${combos}`;
       clickedCard = null;
       if (combos === 5) {
-        alert('YOU WIN');
+        comboCount.innerText = `${'matches'}: ${combos}, YOU WIN`;
       }
     }
   }
