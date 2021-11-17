@@ -26,6 +26,8 @@ function cardClick(e) {
       }, 500)
     } else {
       combos++;
+      let comboCount = document.querySelector('p');
+      comboCount.innerText = `${'matches'}: ${combos}`;
       clickedCard = null;
       if (combos === 5) {
         alert('YOU WIN');
